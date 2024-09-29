@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Script from "next/script";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -30,11 +31,11 @@ export default function RootLayout({
       >
         {children}
       </body>
-      <script
+      <Script
         defer
         src="https://umi.gokay.works/script.js"
         data-website-id="bdd4e1b0-a72b-44b0-a7e1-b6305c9e7197"
-      ></script>
+      ></Script>
     </html>
   );
 }
