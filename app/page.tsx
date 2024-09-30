@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
-  let photoDB = [
+  const photoDB = [
     {
       filename: "DSCF5733.JPG",
       width: 3264,
